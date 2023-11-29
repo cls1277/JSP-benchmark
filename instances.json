@@ -1,5 +1,12 @@
 [
   {
+    "name" : "test",
+    "jobs" : 3,
+    "machines" : 3,
+    "optimum" : 1234,
+    "path" : "instances/test"
+  },
+  {
     "name" : "abz5",
     "jobs" : 10,
     "machines" : 10,
