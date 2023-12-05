@@ -1,34 +1,41 @@
 [
   {
-    "name" : "test",
+    "name" : "test_b",
+    "jobs" : 5,
+    "machines" : 5,
+    "optimum" : 1234,
+    "path" : "instances/test_b"
+  },
+  {
+    "name" : "test_s",
     "jobs" : 3,
     "machines" : 3,
     "optimum" : 1234,
-    "path" : "instances/test"
+    "path" : "instances/test_s"
   },
   {
-    "name" : "abz5",
+    "name" : "abz05",
     "jobs" : 10,
     "machines" : 10,
     "optimum" : 1234,
     "path" : "instances/abz5"
   },
   {
-    "name" : "abz6",
+    "name" : "abz06",
     "jobs" : 10,
     "machines" : 10,
     "optimum" : 943,
     "path" : "instances/abz6"
   },
   {
-    "name" : "abz7",
+    "name" : "abz07",
     "jobs" : 20,
     "machines" : 15,
     "optimum" : 656,
     "path" : "instances/abz7"
   },
   {
-    "name" : "abz8",
+    "name" : "abz08",
     "jobs" : 20,
     "machines" : 15,
     "optimum" : null,
@@ -39,7 +46,7 @@
     "path" : "instances/abz8"
   },
   {
-    "name" : "abz9",
+    "name" : "abz09",
     "jobs" : 20,
     "machines" : 15,
     "optimum" : null,
