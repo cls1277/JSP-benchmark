@@ -18,7 +18,7 @@ describe "instances_checker" do
   it 'verifies problem size' do
     @instances.each do |instance|
       size = open( "#{@pwd}/#{instance["path"]}" ).readlines.reject{|line| line =~ /^#/}[0].split.map(&:to_i)
-      [instance["jobs"],instance["machines"]].should eq(size)
+      [instance["JOBS"],instance["MACHINES"]].should eq(size)
     end
   end
 

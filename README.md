@@ -9,8 +9,8 @@ The file `instances.json` has meta-data of each instance as follows.
 ```
 {
   "name" : "instance", // the name of the instance [required]
-  "jobs" : n,          // the number of jobs [required]
-  "machines" : m,      // the number of machines [required]
+  "JOBS" : n,          // the number of jobs [required]
+  "MACHINES" : m,      // the number of machines [required]
   "optimum" : c,       // the optimum makespan or null [required]
   "bounds" : {         // required when the optimum is null
     "upper" : ub,      // the upper-bounds of makespan

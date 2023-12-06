@@ -10,10 +10,10 @@ class Instance
     @hash["name"]
   end
   def jobs
-    @hash["jobs"]
+    @hash["JOBS"]
   end
   def machines
-    @hash["machines"]
+    @hash["MACHINES"]
   end
   def operations
     self.jobs * self.machines
